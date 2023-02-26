@@ -1,0 +1,183 @@
+@media screen and (min-width:200px){
+    .center{
+        width:100%;
+    }
+    .logos-top{
+        justify-content: space-between;
+        vertical-align: middle;
+        position:fixed;
+    }
+}
+
+@media screen and (min-width:350px){
+    .main{
+        line-height: 1.4;
+    }
+    .logos-bottom img{
+        width: 40px;
+        height:40px;
+        margin:14px 6px;
+    }
+    .hello-text h1{
+        font-size:18px;
+    }
+    .hello-text p{
+        font-size:16px;
+    }
+}
+
+@media screen and (min-width:400px){
+    .main{
+        line-height: 1.5;
+        margin:0 22px;
+    }
+    .hello-text h1{
+        font-size:20px;
+    }
+    .hello-text p{
+        font-size:16px;
+    }
+    .hello-profile img{
+        height: 90px;
+        width: 90px;
+    }
+}/*Samsung A51/A71 OK  O próximo é o Surface Duo*/
+
+@media screen and (min-width:500px) {
+    #github img,
+    #linkedin img{
+        width: 105px;
+        height:28px;  
+    }
+    .main{
+        margin:0 34px; /*AQUI******/
+    }
+    .box-hello{     
+        padding-top: 78px; /*AQUI******/
+    }
+    .hello-profile img{
+        height: 102px;
+        width: 102px;
+    }
+    .hello-text h1{
+        font-size:22px;
+    }
+    .hello-text p{
+        font-size:18px;
+    }
+    body p,
+    body h2{
+        font-size:16px ;
+    }
+    .ag-text a,
+    .form-text a,
+    .gJ-text a{
+        font-size: 16px;
+    }
+    .container-projects h3{
+        font-size: 16px;
+    }
+    .agencia-bold,
+    .responsive-form,
+    .gameJ{
+    margin:34px;
+    }
+    .logos-bottom img{
+        width: 48px;
+        height:48px;
+        margin:20px 10px;
+    }
+}/*Finalizado Surface Duo próximo IPAD MINI */
+
+@media screen and (min-width:630px) {
+    
+    #github img,
+    #linkedin img{
+        width: 110px;
+        height:30px;  
+    }
+    .main{
+        margin:0 calc(((100vw - 500px)/2));
+        max-width:500px;/*AQUI******/
+    } 
+    .box-hello{     
+        padding-top: 114px; /*AQUI******/
+    }
+    .hello-text p{
+        font-size:20px;
+        text-align: center;
+    }
+    .hello-text h1{
+        font-size:24px;
+    }
+    body p,
+    body h2{
+        font-size:17px ;
+    }
+    .ag-text a,
+    .form-text a,
+    .gJ-text a{
+        font-size: 17px;
+    }
+    .container-projects h3{
+        font-size: 17px;
+    }
+    .agencia-bold,
+    .responsive-form,
+    .gameJ{
+    margin:32px;
+    }
+    .logos-bottom img{
+        width: 52px;
+        height:52px;
+        margin:20px 14px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .logos-top{
+        padding-top:2.5vh;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .logos-top{
+        padding:2.5vh 2vw;
+    }
+    .box-hello{     
+        padding-top: 120px; /*AQUI******/
+    }
+    .hello-profile img{
+        height: 108px;
+        width: 108px;
+    }
+    .hello-text h1{
+        font-size:24px;
+    }
+    .hello-text p{
+        font-size:22px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .box-hello{     
+        display: flex;
+        align-items: center;
+        text-align: left;
+        justify-content: left;
+    }
+    .hello-text h1{
+        font-size:26px;
+    }
+    .hello-text p{
+        text-align: left;
+    }
+    .hello-profile img{
+        margin-right: 18px;
+        margin-bottom: 10px;
+    }
+    .hello-profile img:hover{
+        transform: scale(1.02, 1.02);
+    }
+}
